@@ -1,0 +1,122 @@
+body html
+{
+  margin:0;
+  padding:0;
+
+}
+html,body,h1,h2,h3,h4,h5,h6,a{
+ font-family: "Raleway";
+
+}
+.navbar{ background: #b30000;}
+
+.header{
+ background-image: url("../Images/fit1.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(0, 0, 0, 0.59);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 7em;
+    
+}
+.description h1{
+ color:  #b30000 ;
+ text-align: 100;
+}
+.description p{
+ color:white;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid  #b30000;
+ background: #b30000;
+ color:#fff;
+}
+
+
+.about{
+ margin: 4em 0;
+ padding: 1em;
+ position: absolute;
+
+}
+.about h1{
+ color:#F97300;
+ margin: 2em;
+}
+.about img{
+ height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.about .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.about .desc h3{
+ color: #10828C;
+}
+.about .desc p{
+ line-height:1.5;
+ color:#888;
+}
+.h1
+{
+	color:  #b30000;
+}
+
+
+
+
+.contact-form{
+ margin: 6em 0;
+ position: relative;  
+}
+
+.contact-form h1{
+ padding:2em 1px;
+ color:  #b30000; 
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:#b30000;
+ color: #fff;
+ border:0;
+ width: 580px;
+}
+.contact-form .right .form-control::placeholder{
+ color:  #b30000;
+ font-size: 16px;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
