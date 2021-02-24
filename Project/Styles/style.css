@@ -1,3 +1,9 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+
 body html
 {
   margin:0;
@@ -8,10 +14,10 @@ html,body,h1,h2,h3,h4,h5,h6,a{
  font-family: "Raleway";
 
 }
-.navbar{ background: #b30000;}
+.navbar{ background: transparent;}
 
 .header{
- background-image: url("../Images/fit1.jpg");
+ background-image: url("../Images/fit2.jpg");
  background-attachment: fixed;
  background-size: cover;
  background-position: center;
@@ -22,9 +28,10 @@ html,body,h1,h2,h3,h4,h5,h6,a{
  min-width: 100%;
  left: 0;
  top: 0;
- background: rgba(0, 0, 0, 0.59);
+ background: rgba(0, 0, 0, 0.6);
 }
 .description{
+
     position: absolute;
     top: 30%;
     margin: auto;
@@ -104,10 +111,12 @@ html,body,h1,h2,h3,h4,h5,h6,a{
  background:#b30000;
  color: #fff;
  border:0;
- width: 580px;
+ width: 500px;
+ margin-right:100px;
+
 }
 .contact-form .right .form-control::placeholder{
- color:  #b30000;
+ color:  secondary;
  font-size: 16px;
 }
 
@@ -119,4 +128,161 @@ html,body,h1,h2,h3,h4,h5,h6,a{
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+}
+
+
+
+
+
+
+
+section {
+    padding: 10px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #b30000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#footer {
+    background: black !important;
+}
+#footer h5{
+  padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+  padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+  font-size:25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+  font-size:30px;
+  margin-top:-0;
+}
+#footer ul.social li a,
+{
+  color:#ffffff;
+}
+}
+#footer ul.social li a:hover{
+  color:#eeeeee;
+}
+
+
+@media (max-width:767px){
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+.card1{
+height: 500px;
+margin-top: 120px;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.6) !important;
+}
+
+
+
+
+
+
+.card{
+height: 500px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.6) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #b30000;
+}
+
+.social_icon span:hover{
+color: black;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+/*background-color: #b30000;*/
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+.input-group-prepend span,input[type="text"],input[type="email"],input[type="password"]
+{
+  height:50px;
+  max-width: 500px;
+}
+textarea{max-width: 500px;}
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #b30000;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
 }
