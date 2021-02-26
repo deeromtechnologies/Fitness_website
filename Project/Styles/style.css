@@ -50,6 +50,10 @@ html,body,h1,h2,h3,h4,h5,h6,a{
 
 }
 .navbar{ background: transparent;}
+.nav-link:hover{ 
+  
+   background-color:#b30000;}
+                 
 
 .header{
  background-image: url("../Images/fit2.jpg");
@@ -346,4 +350,51 @@ margin-left: 4px;
 }
 .blog .card-body{
  padding: 1em;
+}
+
+
+
+
+.portfolio{
+ margin: 4em 0;
+    position: relative; 
+}
+.portfolio h1{
+ color:#b30000;
+ margin: 2em; 
+}
+.portfolio img{
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
+  
+}
+
+
+.error{
+ background-image: url("../Images/404.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+.server-error{
+background-image: url("../Images/500.png");
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+
+}
+.btn4{
+  margin-top: 580;
+  margin-left:450;
+  font-family: sans-serif;
+font-size: 40;
+background-color: #FFFF00;
+width:400px;
+height:80px;}
+
+.btn5{
+   margin-top: 600;
+    margin-left:620;
+  
 }

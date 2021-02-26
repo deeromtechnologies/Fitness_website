@@ -15,6 +15,9 @@ html,body,h1,h2,h3,h4,h5,h6,a{
 
 }
 .navbar{ background: transparent;}
+.nav-link:hover{ 
+  
+   background-color:#b30000;}
 
 .header{
  background-image: url("../Images/fit1.jpg");
